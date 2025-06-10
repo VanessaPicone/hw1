@@ -1,0 +1,146 @@
+.struttura{
+    position:fixed;
+    top:0;
+    right:0;
+    background-color: rgb(242, 242, 242);
+    width: 270px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.struttura a{
+    padding:20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.struttura h1{
+    padding:20px;
+    margin:0;
+    margin-top:10px;
+    font-size:25px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+#Ricerca form{
+    display:flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    width: 60%;
+    height: auto;
+    padding: 10px 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border:2px solid rgb(179, 172, 172);
+    align-items: center; 
+    margin-left:19%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.Cerca input ::placeholder{
+    font-size: 14px;
+    color:rgb(179, 172, 172);
+    padding-left: 20px;
+}
+.searchBar{
+  outline: none;
+  border: none;
+}
+
+.Cerca{
+    display:flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+#Ricerca form input[type=submit]{
+    background-color: rgb(52, 224, 161);
+    border-radius: 50px;
+    padding: 10px 16px;
+    color: black;
+    border:none;
+    margin-left:10px;
+    font-weight: 600;
+}
+
+#Ricerca form input[type=submit]:hover{
+    background-color: #88e4c4;
+}
+
+.container{
+    margin-left: 180px;
+    margin-right:180px;
+    margin-bottom: 30px;
+}
+#results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonne uguali */
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card hotel */
+.hotel {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+
+/* Immagine hotel */
+.hotel img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+/* Contenitore info */
+.infoContainer {
+  padding: 10px;
+}
+
+.info {
+  font-size: 14px;
+  color: #333;
+}
+
+.saveForm, .saveForm1 {
+   position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px; 
+    height: 24px;
+    border-radius: 50%;
+    padding:6px;
+    background-color: white;
+    z-index: 1;
+}
+
+.img_cuore {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+
+
+.img_cuore{
+    width: 24px !important;  /*forzo queste dimensioni perchè sono già definite nell'indirizzo url*/
+    height:24px !important;
+}
+
+
+.descrButton{
+    border:none;
+    cursor: pointer;
+    text-decoration: underline;
+    color:#10142d;
+    background-color: none;
+}

@@ -1,0 +1,23 @@
+#X-tendina{
+    position:absolute;
+    top: 20px;
+    right:230px;
+    width: 15px;
+}
+#X-tendina:hover{
+    background-color: rgba(207, 206, 206, 0.819);
+    border-radius: 50%;
+}
+
+#welcome{
+    width: auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#welcome a{
+    font-weight: 800;
+    cursor: pointer;
+    padding-left:15px;
+}

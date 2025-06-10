@@ -1,0 +1,145 @@
+body{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    font-weight: 800;
+}
+#logo img{
+    width: 132px;
+    height:60px;
+    margin-left:30px;
+}
+form{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top:30px;
+    margin-left:0;
+}
+label{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    width: 200px;
+    height: auto;
+
+    padding: 15px ;
+    padding-right: 10px;
+}
+.name, .surname, .username, .email, .password,
+.confirm_password{
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:relative;
+    margin-bottom:20px;
+}
+.name div, .surname div, .username div, .email div, .password div,
+.confirm_password div{
+    position:absolute;
+    top:50px;
+}
+.name #struttura{
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form input{
+    width: 650px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #d9dadc;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.submit input{
+    background-color: rgb(52, 224, 161);
+    border-radius: 50px;
+    padding: 10px 16px;
+    color: black;
+}
+.submit input:hover{
+    background-color: #88e4c4;
+}
+.signup a{
+    background-color: black;
+    border-radius: 50px;
+    color:white;
+    padding: 10px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signup a:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.signup{
+    padding-left:20px;
+}
+
+.allow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.allow label{
+    width: 100%;
+    padding-left:0;
+}
+.allow input{
+    padding:10px;
+    width: 15px;
+}
+.submit input{
+    width: 100px;
+}
+
+.signup{
+    margin-top:30px;
+    padding-left: 25%;
+    margin-bottom: 30px;
+}
+form span{
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s ease;
+}
+
+.errorj label{
+    color: #d01b2d;
+}
+
+.errorj span{
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errorj img{
+    opacity: 1;
+}
+
+.errorj input, .errorj #upload {
+    border-color: #d01b2d;
+}
+
+.main_right img{
+    width: 14px;
+    height:14px;
+}

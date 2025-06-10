@@ -1,0 +1,148 @@
+#post h3{
+    margin-left: 180px;
+    margin-top:30px;
+}
+#post #sottotitolo{
+    margin-left: 180px;
+}
+form{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:280px;
+}
+
+.add_photo, .add_name, .add_rating, 
+.add_address{
+    margin:20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+input, .add_description div{
+    width: 600px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #d9dadc;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+
+    margin-left:20px;
+}
+.add_description{
+    margin:20px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: -360px;
+}
+.add_description div{
+    height:300px;
+    width: 800px;
+}
+.add_description input, .add_description input:focus{
+    border:none;
+    outline: none;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.submit input{
+    background-color: rgb(52, 224, 161);
+    border-radius: 50px;
+    padding: 10px 16px;
+    color: black;
+    width: auto;
+    margin-left:0;
+    position:relative;
+    left:-130px;
+}
+.submit input:hover{
+    background-color: #88e4c4;
+}
+input::placeholder{
+    font-size:12px;
+}
+#post p{
+    width: 250px;
+}
+form img{
+    width: 14px;
+    height:14px;
+}
+/*succ.add.php*/
+#succ{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+.altro{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:300px;
+}
+#add{
+    padding: 10px;
+    background-color: black;
+    border-radius: 50px;
+    color:white;
+    text-decoration: none;
+}
+#post{
+    margin-bottom: 30px;
+}
+
+/*visualizzo i post*/
+.container{
+    margin-left: 180px;
+    margin-right:180px;
+    margin-bottom: 30px;
+}
+#results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonne uguali */
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card post */
+.post{
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.post img{
+  width: 280px;
+  height: 280px;
+}
+/* Contenitore info */
+.infoContainer {
+  padding: 10px;
+}
+
+.info {
+  font-size: 16px;
+  color: #333;
+}
+.info p{
+    margin:10px;
+}
+
+
+
